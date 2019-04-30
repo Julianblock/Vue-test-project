@@ -1,12 +1,3 @@
-<template>
-  <div id='app' class='app'>
-    <Layout />
-    <div class='content'>
-      <router-view />
-      <HelloWorld msg="Home"/> 
-    </div>
-  </div>
-</template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
@@ -20,6 +11,17 @@ export default {
   }
 }
 </script>
+
+<template>
+  <div id='app' class='app'>
+    <Layout />
+    <div class='content'>
+      <router-view />
+      <HelloWorld msg="Home"/> 
+    </div>
+  </div>
+</template>
+
 
 <style>
 @import 'styles/_index.scss';

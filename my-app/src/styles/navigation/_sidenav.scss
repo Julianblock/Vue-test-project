@@ -2,8 +2,9 @@
     background: #ffffff;
     height: 100%;
     width: 340px;
-    position: absolute;
+    position: fixed;
     box-shadow: #42b983 0px 0px 11px;
+    z-index: 1;
 }
 
 .sidenav-title-img{

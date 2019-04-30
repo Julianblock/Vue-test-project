@@ -2,28 +2,28 @@
     <div class='sidenav'>
       <img alt="Vue logo" class='sidenav-title-img' src="../assets/logo.png" />
         <div class='sidenav-btn'>
-           <router-link to='/users'> Button 1 </router-link>
+           <router-link to='/users'> Home </router-link>
         </div>
         <div class='sidenav-btn'>
-            Button 2
+            About Vue
         </div>
         <div class='sidenav-btn'>
-            Button 3
+            Advantages
         </div>
         <div class='sidenav-btn'>
-            Button 4
+            Syntax
         </div>
         <div class='sidenav-btn'>
-            Button 5
+            Best Practices
         </div>
         <div class='sidenav-btn'>
-            Button 6
+            Unit Testing
         </div>
         <div class='sidenav-btn'>
-            Button 7
+            Deploying
         </div>
         <div class='sidenav-btn'>
-            Button 8
+            Sample Programs - API call with axios
         </div>
     </div>
 </template>
