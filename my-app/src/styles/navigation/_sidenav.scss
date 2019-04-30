@@ -1,21 +1,38 @@
 .sidenav {
-    background: #444;
-    height: 100vh;
-    width: 25%;
-    border: solid #444 1px;
+    background: #ffffff;
+    height: 100%;
+    width: 340px;
+    position: absolute;
+    box-shadow: #42b983 0px 0px 11px;
+}
 
-    &-btn {
-        width: 100%;
-        border-top: solid #555 1px;
-        border-bottom: solid #555 1px;
-        -webkit-transition: 2s; /* Safari */
-        transition: 2s;
+.sidenav-title-img{
+    height: 50px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+
+.sidenav-btn {
+    display: flex;
+    border-bottom: solid #42b983 1px;
+    -webkit-transition: 2s; /* Safari */
+    transition: .3s;
+    height: 55px;
+    padding-left: 15px;
+    align-items: center;
+
+    &-text {
+        font-size: 18px;
+        color: #000;
+        font-family: serif;
+        text-decoration: unset;
     }
 
-    &-btn:hover {
-        a {
-        color: #42b983; 
-       }
-    }
+}
 
+
+.sidenav-btn:hover {
+    background: #41b883;
+    color: #fff;
 }

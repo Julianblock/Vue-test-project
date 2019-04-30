@@ -1,6 +1,41 @@
+/* Imports Navigation */
 @import './navigation/_index.scss';
+
+/* Import componnt styles */
+@import './components/helloworld/_index.scss';
+
+/* Styles for the whole app & main container */
 
 body {
     background: #fff;
     margin: 0;
+    display: flex;
+}
+
+.content {
+    margin-left: 340px;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+
+.hello {
+    height: 100vh;
+    overflow-y: scroll;
+    overflow: hidden;
+    padding: 3%;
+}
+
+.app {
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+}
+
+.content-box {
+    padding: 3px;
+    box-shadow: #3a9b6f 0px 0px 5px 0px;
+    border-radius: 5px;
+    width: 100%;
 }
