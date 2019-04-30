@@ -40,4 +40,15 @@ body {
     padding-right: 15px;
     padding-top: 15px;
     padding-bottom: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    -webkit-transition: 2s; /* Safari */
+    transition: .3s;
+}
+
+.content-box:hover {
+    background: #41b883;
+    color: #fff;
 }

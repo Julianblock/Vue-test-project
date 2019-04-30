@@ -5,7 +5,23 @@
       <img alt="Vue logo" src="../assets/logo.png" />
       Content for this box
     </div>
+    <div class='content-box' >
+      <img alt="Vue logo" src="../assets/logo.png" />
+      Content for this box
     </div>
+    <div class='content-box' >
+      <img alt="Vue logo" src="../assets/logo.png" />
+      Content for this box
+    </div>
+    <div class='content-box' >
+      <img alt="Vue logo" src="../assets/logo.png" />
+      Content for this box
+    </div>
+    <div class='content-box' >
+      <img alt="Vue logo" src="../assets/logo.png" />
+      Content for this box
+    </div>
+  </div>
 </template>
 
 <script>
