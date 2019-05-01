@@ -2,7 +2,7 @@
     <div class='sidenav'>
       <img alt="Vue logo" class='sidenav-title-img' src="../assets/logo.png" />
         
-        <router-link to='/'>
+        <router-link active-class="active" to='/' exact>
             <div class='sidenav-btn'> 
                 Home 
             </div>
@@ -30,11 +30,6 @@
         <router-link to='/Unit-Testing'>
             <div class='sidenav-btn'>
                 Unit Testing
-            </div>
-        </router-link>
-        <router-link to='/Deploying'>
-            <div class='sidenav-btn'>
-                Deploying
             </div>
         </router-link>
         <router-link to='/Samples'>

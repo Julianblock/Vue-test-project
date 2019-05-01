@@ -23,6 +23,10 @@ body {
     height: 100%;
     padding: 3%;
     padding-top: 6%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 10%;
+    grid-row-gap: 15px;
 }
 
 .app {
@@ -46,13 +50,43 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    -webkit-transition: 2s; /* Safari */
+    -webkit-transition: .3s; /* Safari */
     transition: .3s;
+    font-size: 25px;
+}
+
+.content-box img{
+    height: 176px;
+    width: 176px;
 }
 
 .content-box:hover {
-    background: #41b883;
     color: #fff;
+}
+
+.content-box-about:hover{
+    box-shadow: #3a9b6f 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #3a9b6f);  
+}
+.content-box-advantage:hover{
+    box-shadow: #599ddc 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #3b79de);  
+}
+.content-box-syntax:hover{
+    box-shadow: #b3ab6c 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #b3ab6c);  
+}
+.content-box-best-practices:hover{
+    box-shadow: #bd2844 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #bd2844);  
+}
+.content-box-unit-testing:hover{
+    box-shadow: #098599 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #098599);  
+}
+.content-box-programs:hover{
+    box-shadow: #3a9b6f 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, #3a9b6f);  
 }
 
 a {
