@@ -1,12 +1,10 @@
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import Layout from './layout/index.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
     Layout
   }
 }
@@ -17,7 +15,6 @@ export default {
     <Layout />
     <div class='content'>
       <router-view />
-      <HelloWorld msg="Home"/> 
     </div>
   </div>
 </template>
