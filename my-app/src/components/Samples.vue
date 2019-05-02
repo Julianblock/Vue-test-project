@@ -1,10 +1,6 @@
 <template>
-<div>
-  <h1>Hello man</h1><br />
-  <h1>Hello man</h1><br />
-  <h1>Hello man</h1><br />
-  <div id="app">
-  </div>
+<div class='sample-work-wrapper'><br />
+    <h1 v-text="$ml.with('VueJS').get('Samplevueprograms')" />
     <p v-text="$ml.with('VueJS').get('msg')" />
   <div class="container" id="people">
   <div class="filter">
@@ -20,9 +16,9 @@
   <div class='ehealth-row'>
     <div class="ehealth-row-tile">
       <div class='ehealth-row-tile-content'>
-        <a href=''>Silver 70 HMO</a>
+        <a >Silver 70 HMO</a>
         <p>Silver </p>
-        <h1>Feature Plan</h1>
+        <h1 v-text="$ml.with('VueJS').get('Featureplan')" />
         <checkbox />Compare
       </div>
     </div>
@@ -30,29 +26,29 @@
       <div class='ehealth-row-tile-content'>
         <p  v-text="$ml.with('VueJS').get('officevisit')" />
         <h2>$45</h2>
-        <a href=''>Find Doctor</a>
+        <a  v-text="$ml.with('VueJS').get('Finddoctor')" />
       </div>
     </div>
     <div class="ehealth-row-tile">
       <div class='ehealth-row-tile-content'>
         <p v-text="$ml.with('VueJS').get('deductible')" />
         <h2>$2150</h2>
-        <a href=''>Find Doctor</a>
+        <a  v-text="$ml.with('VueJS').get('Finddoctor')" />
       </div>
     </div>
     <div class="ehealth-row-tile">
       <div class='ehealth-row-tile-content'>
         <p v-text="$ml.with('VueJS').get('drugsavings')" />
-        <a href=''>Add RX savings</a>
-        <h2> to see savings</h2>
+        <a >Add RX savings</a>
+        <h2 v-text="$ml.with('VueJS').get('Toseesavings')" />
       </div>
     </div>
     <div class="ehealth-row-tile">
       <div class='ehealth-row-tile-content'>
         <p v-text="$ml.with('VueJS').get('monthlycost')" />
         <h2>$102</h2>
-        <a href='' class='Apply' > Apply </a>
-        <a href='' class='Details'> View Details </a>
+        <a  class='Apply' v-text="$ml.with('VueJS').get('Apply')" />
+        <a  class='Details' v-text="$ml.with('VueJS').get('Viewdetails')" />
       </div>
     </div>
   </div>
