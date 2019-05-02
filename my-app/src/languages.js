@@ -7,7 +7,7 @@ export default new MLCreate({
   initial: 'english',
   save: process.env.NODE_ENV === 'production',
   languages: [
-    new MLanguage('english').create({
+    new MLanguage('English').create({
       Home: `Home`,
       About: `About Vue`,
       Advantages: `Advantages`,
@@ -23,7 +23,7 @@ export default new MLCreate({
       msg: `Theodore Roosevelt Jr. (/ˈroʊzəvɛlt/ ROH-zə-velt;[b] October 27, 1858 – January 6, 1919) was an American statesman, politician, conservationist, naturalist, and writer who served as the 26th president of the United States from 1901 to 1909. He previously served as the 25th vice president of the United States from March to September 1901 and as the 33rd governor of New York from 1899 to 1900. As a leader of the Republican Party during this time, he became a driving force for the Progressive Era in the United States in the early 20th century. His face is depicted on Mount Rushmore, alongside those of George Washington, Thomas Jefferson, and Abraham Lincoln. In polls of historians and political scientists, Roosevelt is generally ranked as one of the five best presidents.[3] Roosevelt was born a sickly child with debilitating asthma, but he overcame his physical health problems by embracing a strenuous lifestyle. He integrated his exuberant personality, vast range of interests, and world-famous achievements into a "cowboy" persona defined by robust masculinity. Home-schooled, he began a lifelong naturalist avocation before attending Harvard College. His book, The Naval War of 1812 (1882), established his reputation as both a learned historian and as a popular writer. Upon entering politics, he became the leader of the reform faction of Republicans in New York's state legislature.`
     }),
  
-    new MLanguage('spanish').create({
+    new MLanguage('Spanish').create({
       Home: `Casa`,
       About: `Acerca de Vue`,
       Advantages: `Ventajas`,
@@ -42,7 +42,7 @@ export default new MLCreate({
       Home: `Hjem`,
       About: `Om Vue`,
       Advantages: `Fordeler`,
-      Syntax: `syntax`,
+      Syntax: `Syntax`,
       Bestpractice: `Beste praksis`,
       Unittesting: `Enhetstesting`,
       Samplevueprograms: `Eksempel Vue-programmer`,
