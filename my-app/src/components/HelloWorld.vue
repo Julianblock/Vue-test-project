@@ -5,37 +5,37 @@
       <router-link to='/About'>
         <div class='content-box-about content-box' >
           <img alt="Vue logo" src="../assets/logo.png" />
-          About Vue
+                <p v-text="$ml.with('VueJS').get('About')"/> 
         </div>
       </router-link>
       <router-link to='/Advantages'>
         <div class='content-box-advantage content-box' >
           <img alt="Vue logo" src="../assets/advantage.png" />
-          Advantages of Vue
+                <p v-text="$ml.with('VueJS').get('Advantages')"/> 
         </div>
       </router-link>
       <router-link to='/Syntax'>
         <div class='content-box-syntax content-box' >
           <img alt="Vue logo" src="../assets/syntax.png" />
-          Vue Syntax
+                <p v-text="$ml.with('VueJS').get('Syntax')"/> 
         </div>
       </router-link>
       <router-link to='/Best-Practices'>
         <div class='content-box-best-practices content-box' >
           <img alt="Vue logo" src="../assets/best-practices.png" />
-          Best Practices
+                <p v-text="$ml.with('VueJS').get('Bestpractice')"/> 
         </div>
       </router-link>
       <router-link to='/Unit-Testing'>
         <div class='content-box-unit-testing content-box' >
           <img alt="Vue logo" src="../assets/testing.png" />
-          Unit Testing
+                <p v-text="$ml.with('VueJS').get('Unittesting')"/> 
         </div>
       </router-link>
       <router-link to='/Samples'>
         <div class='content-box-programs content-box' >
           <img alt="Vue logo" src="../assets/programs.png" />
-          Sample Vue Program
+                <p v-text="$ml.with('VueJS').get('Samplevueprograms')"/> 
         </div>
       </router-link>
     </div>

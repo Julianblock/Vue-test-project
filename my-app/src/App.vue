@@ -1,6 +1,7 @@
 
 <script>
 import Layout from './layout/index.vue'
+import Languages from './languages.js'
 
 export default {
   name: 'app',
@@ -8,6 +9,7 @@ export default {
     Layout
   }
 }
+
 </script>
 
 <template>

@@ -4,37 +4,37 @@
         
         <router-link active-class="active" to='/' exact>
             <div class='sidenav-btn'> 
-                Home 
+                <p v-text="$ml.with('VueJS').get('Home')"/> 
             </div>
         </router-link>
         <router-link to='/About'>
             <div class='sidenav-btn'>
-                About Vue
+                <p v-text="$ml.with('VueJS').get('About')"/> 
             </div>
         </router-link>
         <router-link to='/Advantages'>
             <div class='sidenav-btn'>
-                Advantages
+                <p v-text="$ml.with('VueJS').get('Advantages')"/> 
             </div>
         </router-link>
         <router-link to='/Syntax'>
             <div class='sidenav-btn'>
-                Syntax
+                <p v-text="$ml.with('VueJS').get('Syntax')"/> 
             </div>
         </router-link>
         <router-link to='/Best-Practices'>
             <div class='sidenav-btn'>
-                Best Practices
+                <p v-text="$ml.with('VueJS').get('Bestpractice')"/> 
             </div>
         </router-link>
         <router-link to='/Unit-Testing'>
             <div class='sidenav-btn'>
-                Unit Testing
+                <p v-text="$ml.with('VueJS').get('Unittesting')"/> 
             </div>
         </router-link>
         <router-link to='/Samples'>
             <div class='sidenav-btn'>
-                Sample Programs - API call with axios
+                <p v-text="$ml.with('VueJS').get('Samplevueprograms')"/> 
             </div>
         </router-link>
     </div>

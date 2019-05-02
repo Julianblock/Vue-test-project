@@ -1,5 +1,10 @@
 <template>
     <div class='nav'>
-        <p>Element</p>
+    <button
+    v-for="lang in $ml.list"
+    :key="lang"
+    @click="$ml.change(lang)"
+    v-text="lang"
+/>
     </div>
 </template>
