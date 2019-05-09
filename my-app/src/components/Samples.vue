@@ -53,6 +53,8 @@
     </div>
   </div>
     <Search />
+    <Graph2 />
+    <Graph />
 </div>
 
 
@@ -64,10 +66,14 @@
 
 <script>
 import Search from './search.vue';
+import Graph from './graph.vue';
+import Graph2 from './graph2.vue';
 
 export default {
   components: {
-    Search
+    Search,
+    Graph,
+    Graph2
   },
   el:  "people",
     data () {
