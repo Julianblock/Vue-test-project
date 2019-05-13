@@ -9,7 +9,7 @@
 </template>
 
 <script>
-  import LineChart from './lineChart.js'
+  import LineChart from './LineChart.js'
 
   export default {
     components: {

@@ -22,6 +22,6 @@ export default {
 </template>
 
 
-<style>
+<style lang="scss">
 @import 'styles/_index.scss';
 </style>

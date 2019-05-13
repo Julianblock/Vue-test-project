@@ -1,3 +1,7 @@
+
+/* Import Global Variables */
+@import './_globalVariables.scss';
+
 /* Imports Navigation */
 @import './navigation/_index.scss';
 
@@ -5,19 +9,29 @@
 @import './components/helloworld/_index.scss';
 @import './components/Samples/_index.scss';
 
+
 /* Styles for the whole app & main container */
 
 body {
     background: #fff;
     margin: 0;
     display: flex;
+    font-family: sans-serif;
+;
 }
 
 .content {
-    margin-left: 340px;
+    margin-left: 300px;
     padding-left: 5%;
     padding-right: 5%;
     justify-content: center;
+}
+
+@media (max-width: 900px){
+    .content {
+        margin: 0;
+        padding-top: 5%;
+    }
 }
 
 .hello {
@@ -30,11 +44,16 @@ body {
     grid-row-gap: 15px;
 }
 
+@media (max-width: 900px){
+    .hello {
+        display: unset;
+    }
+}
+
 .app {
     width: 100%;
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
-    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-    width: fill-available;
+    width: stretch;  /* Mozilla-based browsers will ignore this. */
 }
 
 .content-box {
@@ -61,13 +80,25 @@ body {
     width: 176px;
 }
 
+@media (max-width: 900px) {
+    .content-box{
+        width: 90%;
+        height: 172px;
+    }
+
+    .content-box img{
+        height: 80px;
+        width: 80px;
+    }
+}
+
 .content-box:hover {
     color: #fff;
 }
 
 .content-box-about:hover {
-    box-shadow: #3a9b6f 0px 0px 20px 2px;
-    background: linear-gradient(108deg, #fefefe, #3a9b6f);  
+    box-shadow: $vuegreen 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, $vuegreen);  
 }
 .content-box-advantage:hover {
     box-shadow: #599ddc 0px 0px 20px 2px;
@@ -78,16 +109,16 @@ body {
     background: linear-gradient(108deg, #fefefe, #b3ab6c);  
 }
 .content-box-best-practices:hover {
-    box-shadow: #bd2844 0px 0px 20px 2px;
-    background: linear-gradient(108deg, #fefefe, #bd2844);  
+    box-shadow: $chartred 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, $chartred);  
 }
 .content-box-unit-testing:hover {
     box-shadow: #098599 0px 0px 20px 2px;
     background: linear-gradient(108deg, #fefefe, #098599);  
 }
 .content-box-programs:hover {
-    box-shadow: #3a9b6f 0px 0px 20px 2px;
-    background: linear-gradient(108deg, #fefefe, #3a9b6f);  
+    box-shadow: $vuegreen 0px 0px 20px 2px;
+    background: linear-gradient(108deg, #fefefe, $vuegreen); 
 }
 
 a {

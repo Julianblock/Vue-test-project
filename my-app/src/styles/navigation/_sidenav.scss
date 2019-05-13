@@ -1,7 +1,16 @@
 .sidenav {
     background: #ffffff;
     height: 100%;
-    width: 340px;
+    width: 300px;
+    position: fixed;
+    box-shadow: #42b983 0px 0px 11px;
+    z-index: 1;
+}
+
+.sidenav-w {
+    background: #ffffff;
+    height: 100%;
+    width: 300px;
     position: fixed;
     box-shadow: #42b983 0px 0px 11px;
     z-index: 1;
@@ -41,4 +50,10 @@
 .sidenav-btn:hover {
     background: #41b883;
     color: #fff;
+}
+
+@media (max-width: 900px) {
+    .sidenav {
+        display: none;
+    }
 }

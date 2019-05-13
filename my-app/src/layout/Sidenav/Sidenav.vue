@@ -1,6 +1,6 @@
 <template>
-    <div class='sidenav'>
-      <img alt="Vue logo" class='sidenav-title-img' src="../assets/logo.png" />
+  <div class='sidenav-w'>
+     <img alt="Vue logo" class='sidenav-title-img' src="../../assets/logo.png" />
         
         <router-link active-class="active" to='/' exact>
             <div class='sidenav-btn'> 
@@ -12,7 +12,7 @@
                 <p v-text="$ml.with('VueJS').get('About')"/> 
             </div>
         </router-link>
-        <router-link to='/Advantages'>
+        <router-link to='/Search'>
             <div class='sidenav-btn'>
                 <p v-text="$ml.with('VueJS').get('Advantages')"/> 
             </div>
@@ -22,9 +22,9 @@
                 <p v-text="$ml.with('VueJS').get('Syntax')"/> 
             </div>
         </router-link>
-        <router-link to='/Best-Practices'>
+        <router-link to='/Charts'>
             <div class='sidenav-btn'>
-                <p v-text="$ml.with('VueJS').get('Bestpractice')"/> 
+                <p v-text="$ml.with('VueJS').get('Charts')"/> 
             </div>
         </router-link>
         <router-link to='/Unit-Testing'>
@@ -37,5 +37,6 @@
                 <p v-text="$ml.with('VueJS').get('Samplevueprograms')"/> 
             </div>
         </router-link>
+        <br />
     </div>
 </template>

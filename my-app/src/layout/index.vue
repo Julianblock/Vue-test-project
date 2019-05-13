@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import SideNav from './sidenav.vue'
-import Navbar from './navbar.vue'
+import SideNav from './Sidenav/index.vue'
+import Navbar from './Navbar/index.vue'
 
 export default {
   name: 'app',
