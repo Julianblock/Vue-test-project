@@ -144,10 +144,9 @@ section, footer, header, aside, nav{
 
     box-shadow: 0 1px 1px #ccc;
     border-radius: 2px;
-    width: 400px;
+    width: 90%;
     padding: 14px;
     margin: 45px auto 20px;
-    position:relative;
 }
 
 .bar input{
@@ -172,7 +171,7 @@ section, footer, header, aside, nav{
 
 ul{
     list-style: none;
-    width: 428px;
+    width: 90%;
     margin: 0 auto;
     text-align: left;
 }

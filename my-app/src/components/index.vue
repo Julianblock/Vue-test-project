@@ -8,7 +8,7 @@
                 <p v-text="$ml.with('VueJS').get('About')"/> 
         </div>
       </router-link>
-      <router-link to='/Advantages'>
+      <router-link to='/Search'>
         <div class='content-box-advantage content-box' >
           <img alt="Vue logo" src="../assets/advantage.png" />
                 <p v-text="$ml.with('VueJS').get('Advantages')"/> 
@@ -20,10 +20,10 @@
                 <p v-text="$ml.with('VueJS').get('Syntax')"/> 
         </div>
       </router-link>
-      <router-link to='/Best-Practices'>
+      <router-link to='/Charts'>
         <div class='content-box-best-practices content-box' >
           <img alt="Vue logo" src="../assets/best-practices.png" />
-                <p v-text="$ml.with('VueJS').get('Bestpractice')"/> 
+                <p v-text="$ml.with('VueJS').get('Charts')"/> 
         </div>
       </router-link>
       <router-link to='/Unit-Testing'>
